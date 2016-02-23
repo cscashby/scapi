@@ -1,9 +1,16 @@
 {
   "name": "scapi",
-  "version": "0.0.1",
+  "version": "0.0.2-ca",
+  "description": "Parses the Supercharger info site supercharge.info and converts it into useful formats",
+  "keywords": [
+    "tesla",
+    "supercharger",
+    "car",
+    "map"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomfitzherbert/scapi.git"
+    "url": "https://github.com/cscashby/scapi.git"
   },
   "scripts": {
     "start": "node app.js"
@@ -20,9 +27,10 @@
     "express-validator": "^2.19.1",
     "jade": "^1.11.0",
     "node-sass-middleware": "^0.9.7",
-    "request": "^2.69.0"
+    "request": "^2.69.0",
+    "tokml": "^0.4.0",
+    "xml": "^1.0.1"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "license": "UNLICENSED"
 }
