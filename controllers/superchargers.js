@@ -5,7 +5,7 @@ var request = require("request")
 
 /**
  * GET /api/superchargers/geo
- * Manage the completion of the various sections of the GAR
+ * Get the geo details of a supercharger 
  */
 exports.getGeo = function(req, res) {
 
