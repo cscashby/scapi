@@ -1,0 +1,28 @@
+# Accounts, keys and secrets
+.env
+
+# Dependencies
+node_modules
+bower_components
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+
+# Other stuff
+
+lib-cov
+pids
+*.pid
+*.seed
+logs
+*.log
+*.csv
+*.dat
+*.out
+*.gz
+*.swp
+
+results
+tmp

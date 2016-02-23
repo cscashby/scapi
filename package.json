@@ -1,0 +1,28 @@
+{
+  "name": "scapi",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomfitzherbert/scapi.git"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "compression": "^1.6.1",
+    "connect-assets": "^5.1.0",
+    "connect-mongo": "^1.1.0",
+    "errorhandler": "^1.4.3",
+    "express": "^4.13.4",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.13.0",
+    "express-validator": "^2.19.1",
+    "jade": "^1.11.0",
+    "node-sass-middleware": "^0.9.7",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+  },
+  "license": "UNLICENSED"
+}
