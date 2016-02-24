@@ -1,6 +1,8 @@
 /**
  * Module dependencies.
  */
+try { require('newrelic'); } catch ( e ) { }
+// Don't need it but it's nice to have if we've got it!
 var express = require('express');
 var compress = require('compression');
 var bodyParser = require('body-parser');
@@ -9,7 +11,6 @@ var path = require('path');
 var request = require("request")
 var sass = require('node-sass-middleware');
 var errorHandler = require('errorhandler');
-
 
 /**
  * Controllers (route handlers).
